@@ -1,0 +1,82 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
+* {
+    margin:0;
+    padding:0;
+    box-sizing:border-box ;
+    font-family: 'Roboto Slab', serif;
+}
+.button {
+   
+    color:black;
+    background-color: #86928b;;
+    padding: 10px 20px;
+    border:1px black solid;
+}
+.button:hover {
+  background-color: #dfdfdf;
+
+}
+.input {
+    border:none;
+    border-bottom:1px rgb(1, 17, 41) solid;
+    outline:none;
+    background-color: rgb(243, 243, 243);
+}
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color:#4DA174;
+    padding:40px 0;
+    gap:15px;
+    margin-bottom: 40px;
+    
+}
+.days {
+    display:flex;
+    justify-content: space-between;
+}
+.aside {
+    position: relative ;
+    bottom: 30px;
+}
+.day {
+    display: flex;
+    align-items: center;
+    gap:7px;
+}
+.day button {
+    border:none;
+    background:none ;
+    cursor: pointer ;
+}
+.yprimg {
+    max-width:200px ;
+    max-height:200px;
+}
+.ypro {
+display:flex;
+justify-content:center;
+align-items:center ;
+    
+}
+.fdiv {
+    display: flex;
+    flex-direction: column;
+    gap:30px;
+    
+}
+.fdiv input {
+    padding: 9px;
+    
+
+}
+.iwillback {
+    color:rgb(255, 0, 0);
+    background-color: #919191;;
+    padding: 1px 2px;
+    border:1px black solid;
+    width:55px;
+}
